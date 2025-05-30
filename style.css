@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ededed;
+    
+}
+body{
+    background: url(voiture.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 3px,10%;
+    color: rgb(255, 145, 0);
+
+   }
+
+   @media( max-with:300px) {
+    .header{
+        flex-direction: column;
+    }
+   }
+   .contenu {
+    background-color: black(0,0,0,0,6.);
+    padding: 2opx;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 800px;
+   }
+   img {
+    width: 200px;
+    border-radius: 10px;
+   }
+   
+   button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255)
+    color rgb(244, 244, 247);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+   }
+   #bbbb{
+    background-color: #ff0000;
+    color: aqua;
+   }
+   #bbbb:hover{
+    background-color: #dad5d5;
+    cursor: pointer;
+   }
+   button:hover { 
+    background-color: #ffffff;
+   }
+   button active {
+background-color: #0099ff;
+   }
+   header{
+     background: #4b4a4a;
+     color:#ededed;
+     padding: 20px;
+     text-align:center
+}
+ nav ul{
+     list-style: none;
+     padding: 0;
+     margin-top: 10px;
+}
+nav ul li {
+    display: inline;
+    margin:0 15px;
+}   
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    }
+   
+section {
+  padding: 20px;
+  margin: 20px auto
+  max-width 900px;
+  background: url();
+  border-radius: 10px;
+}
+etudes faites {
+    margin: bottom 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #464545;
+  color:#464545;
+  margin-top: 20px;
+}
+img{
+  width: 15.45em;
+}
+.flex{
+    display: flex;
+}
+.css_1 img{
+    position: relative;
+    right: 20px;
+    height: 280px;
+    top: 10px;
+    box-shadow: 10px 12px #85a6bd;
+
+}
+.OFRE{
+    display: flex;
+    bottom: -20px;
+    left: 60px;
+    margin: 40px;
+}
+.css_d img{
+    position: relative;
+    right: 20px;
+    height: 280px;
+    top: 10px;
+    box-shadow: 10px 12px #85a6bd;
+
+}
+.OFRE123{
+    position: relative;
+    right: -100px;
+}
+#ppp{
+    margin: 23px;
+}
+.offre1{
+    position: relative;
+    bottom: -20px;
+    left: 90px;
+}
+
+.html img{
+    position: relative;
+    right: 20px;
+    height: 280px;
+    top: 10px;
+    box-shadow: 10px 12px #85a6bd; 
+
+}
+.offre2{
+    position: relative;
+    bottom: -20px;
+    left: 120px;
+}
+
+.python img{
+    position: relative;
+    right: 20px;
+    height: 280px;
+    top: 10px;
+    box-shadow: 10px 12px #85a6bd;
+
+}
+.offre3{
+    position: relative;
+    bottom: -20px;
+    left: 150px;
+}
